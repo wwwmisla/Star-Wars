@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Wars</title>
+
+  <!-- CSS -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/Star_Wars_Logo.png" type="image/x-icon">
+
+  <!-- JavaScript -->
+  <script src="js/script.js" defer></script>
+  <script src="js/audio.js" defer></script>
+</head>
+
+<body id="bg">
+
+  <!-- Cenário -->
+  <div id="cenario" class="container">
+
+    <!-- Cabeçalho -->
+    <header>
+      <h1>
+        <i>Star Wars</i>
+      </h1>
+    </header>
+
+    <!-- Pontuação e derivados
+    <div class="form_main">
+      <span id="qtentativas">00</span>
+      <span id="cronometro">10:00</span>
+
+      <button type="button" class="start" onclick="iniciar()">COMEÇAR</button>
+      <button type="button" class="reset" onclick="resetJogo()">CANCELAR</button>
+
+    </div> -->
+
+    <form class="form_main">
+
+      <!-- informações das parciais -->
+      <div class="tempo">
+        tempo:
+        <span id='tempo'>10:00</span>
+      </div>
+
+      <div class="tent">
+        tentativas:
+        <span id='tent'>00</span>
+      </div>
+
+      <div class="acertos">
+        acertos:
+        <span id='acertos'>00</span>
+      </div>
+
+      <!---->
+
+      <!-- Área de controle -->
+      <div class="music">
+        <audio id="audio">
+          <source src="../music/sound.ogg" type="audio/ogg">
+          <source src="../music/sound.mp3" type="audio/mpeg">
+        </audio>
+
+        <div>
+          <button type="button" class="playm" id="playm" onclick="play()">play music</button>
+          <button type="button" class="mutem" id="mutem" onclick="mute()">mute music</button>
+        </div>
+      </div>
+      <button type="button" class="start" id="start">começar</button>
+      <button type="button" class="reset" id="reset" onclick="resetJogo()">cancelar</button>
+    </form>
+
+    <!-- Cursor e Explosão-->
+    <img src="../img/mira.png" alt="mira" class="cursor" />
+    <img src="../img/boom1.png" alt="explosao" class="explosao" />
+
+  </div>
+
+  <!-- Histórico -->
+  <div class="history">
+    <span class="history">histórico:</span>
+    <ul id="lista_historico">
+
+    </ul>
+  </div>
+
+</body>
+
+</html>
