@@ -18,7 +18,7 @@ A inspiração do jogo vem da franquia Star Wars, sendo assim, o cenário foi in
 <br>2° Mire na posição correta do alvo;
 <br>3° Pressione o mouse e a explosão ocorrerá;
 <br>4° Para finalizar o jogo clique no botão: cancelar;
-<br>5° Caso queira ligar ou mutar o som, aperte nos botões que estão na parte inferior da página.
+<br>5° Caso queira ligar ou mutar o som, aperte nos botões que estão na parte superior da página.
 <br>AS REGRAS:
 <br>Atire no alvo para que seu score seja grande, enquanto o tempo não termina;
 <br>Caso o tempo encerre, escreva seu nome, pois assim você ficará sabendo os dados da sua partida, como a quantidade de acertos!
